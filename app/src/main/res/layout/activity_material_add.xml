@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaterialAdd">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:paddingTop="13dp"
+        android:background="@color/teal"
+        >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Material Report"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:layout_marginBottom="13dp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/tvProName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Project"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:layout_marginBottom="13dp"
+            android:textColor="@color/white"
+
+            />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:paddingTop="13dp"
+        android:background="@color/silver"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDate"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="date"
+            android:gravity="right"
+            />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        app:counterTextAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        >
+
+        <EditText
+            android:id="@+id/etDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Material descriptions"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="12dp"
+            android:textColor="@color/blue_grey_900"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+
+        >
+
+        <EditText
+            android:id="@+id/etUnit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="No of Unit"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue_grey_900"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+
+            >
+
+            <EditText
+                android:id="@+id/etCost"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Cost (RM)"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_grey_900"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/teal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/ic_send"
+        />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="@dimen/fab_margin"
+            app:backgroundTint="@color/teal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:srcCompat="@drawable/ic_close"
+
+            />
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</android.support.constraint.ConstraintLayout>

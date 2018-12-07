@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Material"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="13dp"
+        >
+
+
+        <TextView
+            android:id="@+id/tvProName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="proName"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_margin="7dp"
+            />
+
+        <TextView
+            android:id="@+id/tvProID"
+            android:layout_below="@+id/tvProName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="proID"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:visibility="invisible"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

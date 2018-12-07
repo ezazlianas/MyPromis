@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Project">
+        <menu>
+            <item
+                android:id="@+id/nav_alert"
+                android:icon="@drawable/ic_alert"
+                android:title="Activate Alert" />
+
+            <item
+                android:id="@+id/nav_project"
+                android:icon="@drawable/ic_menu_project"
+                android:title="My Project"
+                />
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="Site Report">
+        <menu>
+            <item
+                android:id="@+id/nav_material"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Material Report" />
+            <item
+                android:id="@+id/nav_manpower"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Manpower Report" />
+            <item
+                android:id="@+id/nav_machinery"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Machinery Report" />
+
+        </menu>
+    </item>
+
+    <item android:title="Photo">
+        <menu>
+            <item
+                android:id="@+id/nav_photo"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Site Photo" />
+
+        </menu>
+    </item>
+
+    <item android:title="Sign Out">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PROMIS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">PROMIS</string>
+    <string name="nav_header_subtitle">Innovacia Sdn Bhd</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="quickstart_message">Receive Alert</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Entitled to receive Alert</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id">013</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name">weather</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to alert</string>
+    <string name="fcm_message">FCM Message</string>
+
+    <string name="title_activity_project">Project</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>

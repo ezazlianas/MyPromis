@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageShowActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="58dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/featureGraphics"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/promis"
+            android:background="@color/teal"
+            />
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is Headline"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/featureGraphics"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"/>
+
+        <TextView
+            android:id="@+id/timeStamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="datetime"
+            android:layout_below="@+id/header"
+            android:paddingLeft="16dp"/>
+
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:layout_below="@+id/timeStamp"
+            android:textSize="14sp"
+            android:padding="16dp"/>
+
+        <TextView
+            android:id="@+id/article"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is article."
+            android:layout_below="@+id/tvMessage"
+            android:textSize="14sp"
+            android:padding="16dp"/>
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

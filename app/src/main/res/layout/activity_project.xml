@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Material"
+
+    >
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:paddingTop="60dp"
+            android:gravity="center"
+            android:background="@color/album_title"
+
+            >
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Select Project"
+            android:textSize="17dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            android:layout_marginBottom="7dp"
+            />
+
+
+    <ListView
+        android:id="@+id/lvProject"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        />
+
+        </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

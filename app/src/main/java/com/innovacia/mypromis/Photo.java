@@ -11,6 +11,7 @@ public class Photo {
     private String sitePhotoName;
 
     String urlPhoto = "http://www.innovacia.com.my/promise/sitephoto/";
+    String strTest, strGapo;
 
 
 

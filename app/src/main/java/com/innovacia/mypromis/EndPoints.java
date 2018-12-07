@@ -1,8 +1,5 @@
 package com.innovacia.mypromis;
 
-/**
- * Created by Belal on 10/24/2017.
- */
 
 public class EndPoints {
     private static final String ROOT_URL = "http://www.innovacia.com.my/promise/";

@@ -10,9 +10,7 @@ import com.android.volley.toolbox.BasicNetwork;
 import com.android.volley.toolbox.DiskBasedCache;
 import com.android.volley.toolbox.HurlStack;
 import com.android.volley.toolbox.ImageLoader;
-/**
- * Created by Belal on 12/5/2015.
- */
+
 
 public class CustomVolleyRequest {
 

@@ -34,8 +34,7 @@ import com.google.firebase.messaging.FirebaseMessaging;
 
 import java.util.HashMap;
 
-/**
- */
+
 public class FirebaseActivity extends BaseActivity {
 
     private static final String TAG = FirebaseActivity.class.getSimpleName();
